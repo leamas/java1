@@ -5,6 +5,9 @@ import java.util.Scanner;
 
 import org.omg.CORBA.portable.InputStream;
 
+/*
+ *  Basic console IO demo.
+ */
 public class ConsoleDemo {
 
 	public static void main(String[] args) throws IOException {
