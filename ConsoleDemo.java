@@ -11,16 +11,16 @@ import org.omg.CORBA.portable.InputStream;
 public class ConsoleDemo {
 
 	public static void main(String[] args) throws IOException {
-		System.out.print("Ange ett tal: ");
+		System.out.print("Enter a number: ");
 		BufferedReader input = 
 				new BufferedReader(new InputStreamReader(System.in));
 		Scanner scanner = new Scanner(input);
 		if (scanner.hasNextInt()) {
 			int number = scanner.nextInt();
-			System.out.println("Talet är " + number);
+			System.out.println("The number is " + number);
 		}
 		else {
-			System.out.println("Det var inget tal?");
+			System.out.println("That was no number!");
 		}
 	}
 }
